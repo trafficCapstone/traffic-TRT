@@ -41,6 +41,18 @@ The version that without the tensorRT is
 ```bashrc
 python3  video_demo_cuda.py
 ```
+The Frame process time with Tensor RT:
+![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/40MS.PNG)
+The Frame process time without Tensor RT:
+![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/55ms.PNG)
+The power usage on GPU with TensorRT:
+![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/93w.PNG)
+The power usage on GPU without TensorRT:
+![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/191w.PNG)
+The CPU & RAM Usage with TensorRT：
+![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/93w-300cpu.PNG)
+The CPU & RAM Usage without TensorRT：
+![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/271-cpu.PNG)
 
 ![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/Table.PNG)
 
