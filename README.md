@@ -42,7 +42,7 @@ The version that without the tensorRT is
 python3  video_demo_cuda.py
 ```
 
-
+![image](https://github.com/trafficCapstone/traffic-TRT/blob/master/Wiki/Table.PNG)
 
 From the tables above, we can see that the tensor RT is help us reduce about 37.5% times in the YOLOv3 Predict progress and it also reduce 17.6% in the overall process of the frame.
 We also found that the NMS algorithm(Mostly implement with the Numpy) and the drawbox parts that using the openCV is waste about half time is the overall frame process. After switch to the TensorRT, we can see that the CPU Load is in 300%, which is a special number that with 3 cores full load on the machine. This means that the bottlenleak was case by the part that need to using many cpu like the drawbox and the NMS algorithm. Much more, we can see that with the tensorRT we only need to use half power of the without tensorRT. The GPU load is also much lower when we using the tensorRT.
