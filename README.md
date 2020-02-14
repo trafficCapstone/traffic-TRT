@@ -21,3 +21,23 @@ Clone the project:
 ```bashrc
 https://github.com/trafficCapstone/traffic-TRT.git
 ```
+Because the tensorflow in the PIP is not support the tensorRT6 according to our experience, we provide a version that complied by ourselves:
+```bashrc
+https://drive.google.com/file/d/1mUv7B_X-EgjG7D3Qiqp3C1mNtimayxzS/view?usp=sharing
+```
+DownLoad the models From the link:
+```bashrc
+https://drive.google.com/file/d/1FGJHxFQf9xIjmvF39Nj3gLDReRvJtBId/view?usp=sharing
+```
+DownLoad the Testing video :
+```bashrc
+https://drive.google.com/file/d/16Gkj73lviMBXBBqzZjrFC4-kQhvk7opl/view?usp=sharing
+```
+Then,run the TensorRT version:
+```bashrc
+python3 video_demo.py 
+```
+The version that without the tensorRT is
+```bashrc
+python3  video_demo_cuda.py
+```
